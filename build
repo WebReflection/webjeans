@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ "$1" = "quant" ]; then
+  for png in $(ls icons/*.png); do
+    pngquant --strip -f $png --output $png.optimized
+    mv $png.optimized $png
+  done
+fi
+
+rm -rf *.zip
+mkdir -p webjeans/icons
+cp -R js webjeans/
+cp icons/*.png webjeans/icons/
+cp LICENSE webjeans/
+cp manifest.json webjeans/
+cd webjeans
+zip -r -FS ../webjeans.zip * --exclude *.git*
+cd -
+rm -rf webjeans
