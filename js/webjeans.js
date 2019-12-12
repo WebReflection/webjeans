@@ -17,7 +17,7 @@
 (function (re) {
   // when the URL matches
   if (re.test(location.href))
-    // redirect the browser to the its /webrtc counterpart
+    // redirect the browser to its /webrtc counterpart
     location.href = RegExp.$1 + RegExp.$2 + '/webrtc' + RegExp.$3;
 }(
   // matches bluejeans URLs that don't contain /webrtc already
