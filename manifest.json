@@ -1,7 +1,7 @@
 {
   "name": "webjeans",
   "short_name": "webjeans",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "bluejeans meetings via browser",
   "author": "Andrea Giammarchi",
   "manifest_version": 2,
