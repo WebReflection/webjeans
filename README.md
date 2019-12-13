@@ -5,7 +5,7 @@ Redirects any bluejeans meeting URL to its `/webrtc` counterpart.
 by [@WebReflection](https://twitter.com/WebReflection)
 
   * [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/webjeans/)
-  * Chrome Extension - coming soon (use the `.zip` file and load it manually in the meanwhile)
+  * [Chrome Extension](https://chrome.google.com/webstore/detail/webjeans/genohdaomlakhpdmffplnefmkacmadlo)
 
 ### About
 
