@@ -21,5 +21,5 @@
     location.href = RegExp.$1 + RegExp.$2 + '/webrtc' + RegExp.$3;
 }(
   // matches bluejeans URLs that don't contain /webrtc already
-  /^(https?:\/\/(?:.*\.)?bluejeans\.com\/)(\d+)([?#][\S\s]*)?$/
+  /^(https?:\/\/(?:.*\.)?bluejeans\.com\/)(\d+(?:\/\d+)*)([?#][\S\s]*)?$/
 ));
